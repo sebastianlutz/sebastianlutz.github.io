@@ -1,0 +1,264 @@
+/* $Id: stylesheet.css,v 1.6 2002/12/03 12:07:01 avank Exp $ */
+
+body
+{
+	margin: 0px 0px 0px 0px;
+	background-color: white;
+	font-family: Verdana, Arial, Helvetica, sans-serif; /* inheritance in nn 4.x?? */
+	font-size: 9pt; /* inheritance in nn 4.x?? */
+	color: black;
+}
+
+/* .left and .right definitions are taken from http://www2.hum.uu.nl/Style/hum_nav3.css */
+
+.left {margin-left: 36px; vertical-align: top;}
+
+.left h4 { display: inline; vertical-align: top; padding-right: 30px;}
+
+.left h4 A   { font-size:9pt; margin:0; font-weight:bold; color:#843F59; }
+
+.left h4 A:hover { font-weight:bold; color:#843F59; text-decoration:none; }
+
+.left h4 A:visited { font-weight:bold; color:#843F59; text-decoration:none; }
+
+.left h4 A:active  { font-weight:bold; color:#843F59; text-decoration:none; }
+
+.right {float: right;}
+
+.right img {vertical-align: top;}
+
+.right h4 { display: inline; vertical-align: top; padding-right: 30px;}
+
+.right h4 A   { font-size:9pt; margin:0; font-weight:bold; color:#AE7A8F;}
+
+.right h4 A:hover { font-weight:bold; color:#AE7A8F; text-decoration:none; }
+
+.right h4 A:visited { font-weight:bold; color:#AE7A8F; text-decoration:none; }
+
+.right h4 A:active  { font-weight:bold; color:#AE7A8F; text-decoration:none; }
+
+.FloatRight
+{
+	float: right;
+	margin: 5px;
+}
+
+.BlockRight
+{
+	color: black;
+	background-color: #ccc;
+	float: right;
+	margin: 15px;
+	width: 200px;
+}
+
+.FloatLeft
+{
+	float: right;
+	margin: 5px;
+}
+
+.BlockLeft
+{
+	color: black;
+	background-color: #ccc;
+	float: right;
+	margin: 15px;
+	width: 200px;
+}
+
+/* Based on http://www2.hum.uu.nl/Style/style.css */
+
+table, h4, p, div, h5, a, ol, ul, td  {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9pt;
+	background-color: transparent;
+}
+
+h1, h2 {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12pt;
+	background-color: transparent;
+}
+
+a:link
+{
+	color: #333366;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:visited
+{
+	color: #336699;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover
+{
+	color: #0B2362;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+a:active
+{
+	color: #0B2362;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/* Taken from http://www2.hum.uu.nl/Style/style.css */
+
+.timestamp {
+
+  font-size: 7pt;
+  font-style: italic;
+  margin-top: 5pt;
+  margin-left: 30pt;
+
+}
+
+
+.small {
+
+  font-size: 8pt;
+
+}
+.top {
+   text-align: right;
+   vertical-align: text-bottom;
+	margin-right: 10px;
+   }
+
+/* Adapted from http://www2.hum.uu.nl/Style/hum_nav2.css */
+
+div.HeaderPath
+{
+	margin: 0;
+	padding: 10px 30px 10px 36px;
+	background-color: white;
+	color: #9C5A76;
+	font-size: 8pt; /* x-small is too small for nn 4.x */
+}
+
+div.HeaderTopics
+{
+	margin: 0;
+	padding: 0px 30px 10px 36px;
+	background-color: white;
+	color: #9C5A76;
+	font-size: 8pt; /* x-small is too small for nn 4.x */
+}
+
+.HeaderPath a:link, .HeaderTopics a:link
+{
+	color: #455E80;
+	text-decoration: none;
+	background-color: transparent;
+	font-size: 8pt;
+}
+
+.IndexLink
+{
+	color: #455E80;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.HeaderPath a:visited, .HeaderTopics a:visited {
+	color: #455E80;
+	text-decoration: none;
+	background-color: transparent;
+	font-size: 8pt;
+}
+
+.HeaderPath a:hover, .HeaderTopics a:hover
+{
+	color: #455E80;
+	text-decoration: underline;
+	background-color: transparent;
+	font-size: 8pt;
+}
+
+.HeaderPath a:active, .HeaderTopics a:active
+{
+	color: #455E80; /* #c90 is yellow */
+	text-decoration: underline;
+	background-color: transparent;
+	font-size: 8pt;
+}
+
+/* Background color deduced from http://www2.let.uu.nl/solis/images/bg-s-content.gif */ 
+
+div.Content
+{
+	margin: 0px 0px 10px 0px;
+	padding: 1px 30px 1px 36px; /* XXX: several browsers need at least 1 px padding, nn needs more */
+	color: black;
+	background-color: #f4f2e9; /* XXX: background should be omitted in nn 4.x */
+	border: none; /* needed for background in nn 4.x */
+	font-family: Verdana, sans-serif;  /* fix inheritance in nn 4.x?? */
+}
+
+div.Footer
+{
+	margin: 0;
+	background-image: url(http://www.phil.uu.nl/solis/images/hum-onderbalk.jpg);
+ 	padding: 64px 0px 0px 0px;
+}
+
+span.FooterIcons
+{
+	float: left;
+	padding: 11px 0px 10px 36px; /* asume 15px (16?) image */
+}
+
+span.FooterIcons a img
+{
+	border-style: none; /* needed for mozilla */
+	color: white;
+	background-color: white; /* hide borders in nn 4.x */
+}
+
+span.FooterLinks
+{
+	margin-left: 36px;
+	float: right;
+	text-align: left;
+	padding: 11px 30px 10px 100px;
+	line-height: 15px; /* line-height + padding = 36 < 37 for ie */
+	background-image: url(images/bottom.gif);
+	background-color: #036;
+	background-repeat: no-repeat;
+	white-space: nowrap; /* XXX: does not work in nn 4.x, so a bigger bg-image is needed... */
+	color: white;
+}
+
+span.FooterLinks a
+{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 10px; /* x-small is too small for nn 4.x */
+	font-family: Verdana, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+code, samp, kbd, pre, tt
+{
+	font-family: Monaco, monospace; /* nn 4.x faulty inheritace of main font-family */
+}
+
+address
+{
+	font-size: 11px; /* x-small is too small for nn 4.x */
+	color: #666;
+	background-color: transparent;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+

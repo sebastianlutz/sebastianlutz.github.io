@@ -1,0 +1,14 @@
+hr.left { width:50%; text-align:left }
+hr.center { width:50%; text-align:center }
+
+table { text-indent:0px }
+
+img.left { background-position:left; float:left; border-right-width:10px; border-left-width:0px; border-color:transparent; border-style:solid }
+
+.keinindent { text-indent:0px; }
+.oben { vertical-align:top; }
+.center { text-align:center; }
+.scaps { font-variant:small-caps; }
+.keinborder { border-style:none; }
+
+h2 { font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10pt; background-color:transparent; }
